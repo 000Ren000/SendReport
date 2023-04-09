@@ -8,6 +8,11 @@
 				<CommandName>Form.Command.СформироватьОтчет</CommandName>
 				<ExtendedTooltip name="ФормаСформироватьОтчетРасширеннаяПодсказка" id="5"/>
 			</Button>
+			<Button name="ФормаОтправитьПочту" id="6">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ОтправитьПочту</CommandName>
+				<ExtendedTooltip name="ФормаОтправитьПочтуРасширеннаяПодсказка" id="7"/>
+			</Button>
 		</ChildItems>
 	</AutoCommandBar>
 	<ChildItems>
@@ -51,6 +56,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>СформироватьОтчет</Action>
+		</Command>
+		<Command name="ОтправитьПочту" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправить почту</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправить почту</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОтправитьПочту</Action>
 		</Command>
 	</Commands>
 </Form>
